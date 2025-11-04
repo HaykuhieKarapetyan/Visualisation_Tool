@@ -1,1 +1,1 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/survey-visualizer/sw.js', { scope: '/survey-visualizer/' })})}
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Visualisation_Tool/sw.js', { scope: '/Visualisation_Tool/' })})}
