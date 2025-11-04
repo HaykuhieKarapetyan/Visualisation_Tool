@@ -33,7 +33,7 @@ export const SurveyQuestionsTable: FC<SurveyQuestionsTableProps> = ({
                     rowKey={'question'}
                     sticky={true}
                     pagination={false}
-                    scroll={{ x: 900, y: 450 }}
+                    scroll={{ x: 800, y: 450 }}
                     bordered
                 />
                 <Footer dataQuantity={questionsList.data?.length || 0} />

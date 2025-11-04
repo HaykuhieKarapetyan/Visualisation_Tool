@@ -4,7 +4,8 @@ import styled from 'styled-components';
 
 export const FiltersContainer = styled(Row)`
     width: 100%;
-    height: 60px;
+    height: 80px;
+    margin-bottom: 20px;
 `;
 
 export const SelectContainer = styled(Col)`

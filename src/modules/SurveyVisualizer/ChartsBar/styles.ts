@@ -7,10 +7,12 @@ export const Container = styled.div`
     width: 30%;
     margin-right: 16px;
 
-    & .charts-container {
-        height: 80vh;
-        background-color: ${Colors.PrimaryNeutral[2]};
-        border: 1px solid ${Colors.PrimaryNeutral[5]};
-        border-radius: 6px;
+    & .empty-data {
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 `;

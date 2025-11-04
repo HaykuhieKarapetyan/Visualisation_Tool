@@ -19,7 +19,7 @@ export const SurveyVisualizer = () => {
 
     return (
         <SurveyVisualizerContainer>
-            <Header headerText='Questions Visualiser' />
+            <Header headerText='Trivia Questions Visualizer' />
             {!questionsList.data && questionsList.isPending ? (
                 <SpinContainer>
                     <Spin
@@ -29,9 +29,7 @@ export const SurveyVisualizer = () => {
                 </SpinContainer>
             ) : (
                 <div className='mainPage'>
-                    {questionsList?.data?.length ? (
                         <QuestionsBarChart questionsList={questionsList} />
-                    ) : null}
                     <SurveyQuestionsTable
                         questionsList={questionsList}
                         category={category}

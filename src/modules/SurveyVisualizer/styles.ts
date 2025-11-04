@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const SurveyVisualizerContainer = styled.div`
     & .mainPage {
         display: flex;
+        width: 100%;
     }
 `;
 

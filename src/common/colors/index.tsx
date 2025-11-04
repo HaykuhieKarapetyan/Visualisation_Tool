@@ -8,4 +8,7 @@ export const Colors = {
         ['70']: '#BCBCBD',
         ['400']: '#141414',
     },
+    Green: '#1890ff',
+    Yellow: '#52c41a',
+    Red: '#ff7875',
 };

@@ -1,4 +1,4 @@
-import { Col, Select } from 'antd';
+import { Button, Col, Select } from 'antd';
 import {
     CustomSelectContainer,
     FiltersContainer,
@@ -31,12 +31,22 @@ export const Filters: FC<FiltersProps> = ({ category, setCategory }) => {
             <Col sm={16} />
             <SelectContainer sm={8}>
                 <CustomSelectContainer>
+                    <div>Questions Category</div>
                     <Select
                         options={options}
                         value={category}
                         onChange={value => setCategory(value)}
                     />
                 </CustomSelectContainer>
+            </SelectContainer>
+            <Col sm={16} />
+            <SelectContainer sm={8}>
+                <Button
+                    type='text'
+                    onClick={() => setCategory(undefined)}
+                >
+                    Reset
+                </Button>
             </SelectContainer>
         </FiltersContainer>
     );
