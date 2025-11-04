@@ -1,3 +1,5 @@
+import { SurveyVisualizer } from '@/modules/SurveyVisualizer';
+
 export const App = () => {
-    return <div>App Hello</div>;
+    return <SurveyVisualizer />;
 };
