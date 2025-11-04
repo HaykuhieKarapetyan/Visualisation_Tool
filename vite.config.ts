@@ -73,7 +73,7 @@ export default defineConfig(({ command: _command, mode }) => {
                 },
             },
         },
-        base: '/survey-visualizer/',
+        base: '/Visualisation_Tool/',
         envPrefix: 'Visualization_Tool',
     };
 });
