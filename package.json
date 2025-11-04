@@ -3,9 +3,12 @@
     "private": true,
     "version": "0.0.1",
     "type": "module",
+    "homepage": "https://HaykuhieKarapetyan.github.io/Visualisation_Tool",
     "scripts": {
         "dev": "vite --open",
-        "build": "tsc && vite build"
+        "build": "tsc && vite build",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
     },
     "dependencies": {
         "@tanstack/react-query": "^5.90.6",
@@ -31,6 +34,7 @@
         "eslint-plugin-react": "^7.37.5",
         "eslint-plugin-react-hooks": "^5.1.0",
         "eslint-plugin-unused-imports": "^4.3.0",
+        "gh-pages": "^6.3.0",
         "prettier": "^3.0.0",
         "typescript": "^5.9.2",
         "vite": "^7.1.12",
